@@ -1,6 +1,6 @@
 {
-    "name": "stimulsoft-reports-js",
-    "version": "2023.1.6",
+    "name": "@anasys/stimulsoft-reports-js",
+    "version": "2023.1.1",
     "description": "Stimulsoft Reports.JS is a reporting tool for Node.js",
     "main": "index.js",
     "types": "Scripts/stimulsoft.reports.d.ts",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/stimulsoft/Reports.JS.git"
+        "url": "git+https://github.com/AnasysSoft/Reports.JS.git"
     },
     "keywords": [
         "Stimulsoft",
@@ -35,7 +35,7 @@
         "sync-request": "^6.1.0",
         "node-machine-id": "^1.1.12",
         "xmldoc": "^1.2.0",
-        "stimulsoft-data-adapter": "2023.1.6"
+        "stimulsoft-data-adapter": "2023.1.1"
     },
     "files": [
         "THIRD-PARTY.md",
@@ -66,8 +66,8 @@
     ],
     "license": "Closed Source",
     "bugs": {
-        "url": "https://github.com/stimulsoft/Reports.JS/issues"
+        "url": "https://github.com/AnasysSoft/Reports.JS/issues"
     },
-    "homepage": "https://github.com/stimulsoft/Reports.JS#readme",
+    "homepage": "https://github.com/AnasysSoft/Reports.JS.JS#readme",
     "devDependencies": {}
 }
