@@ -562,7 +562,7 @@ export namespace Stimulsoft.System {
     class StiNumber extends StiObject implements IAsIs {
         value: number;
         getHashCode(...args: any[]): number;
-        is(type: any): boolean;
+        is<T>(type: any): this is T;
         as(type: any): any;
         memberwiseClone(isBase?: boolean): any;
         compareTo(value: any): number;
@@ -580,7 +580,7 @@ export namespace Stimulsoft.System {
     }
     class StiString extends StiObject implements IAsIs {
         value: string;
-        is(type: any): boolean;
+        is<T>(type: any): this is T;
         as(type: any): any;
         memberwiseClone(isBase?: boolean): any;
         replaceAll(searchValue: string, replaceValue: string, startIndex?: number, count?: number): string;
@@ -622,7 +622,7 @@ export namespace Stimulsoft.System {
         static fromBytesArray(bytes: number[]): string;
     }
     class StiBoolean extends StiObject implements IAsIs {
-        is(type: any): boolean;
+        is<T>(type: any): this is T;
         as(type: any): any;
         memberwiseClone(isBase?: boolean): any;
         getHashCode(...args: any[]): number;
